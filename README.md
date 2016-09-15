@@ -1,6 +1,7 @@
 # Scruffy
 
-[![Build Status](https://travis-ci.org/suchmonkey/scruffy.svg?branch=master)](https://travis-ci.org/suchmonkey/scruffy) [![Coverage Status](https://coveralls.io/repos/github/suchmonkey/scruffy/badge.svg?branch=master)](https://coveralls.io/github/suchmonkey/scruffy?branch=master) [![Crates.io](https://img.shields.io/crates/v/scruffy.svg)](https://crates.io/crates/scruffy/)
+[![Build Status](https://travis-ci.org/suchmonkey/Scruffy.svg?branch=master)](https://travis-ci.org/suchmonkey/Scruffy)
+[![Coverage Status](https://coveralls.io/repos/github/suchmonkey/scruffy/badge.svg?branch=master)](https://coveralls.io/github/suchmonkey/scruffy?branch=master)
 
 Scruffy is a simple pseudo random IP v4 address generator which uses specific offsets for each octet to generate deterministic IP addresses.
 ## Features
