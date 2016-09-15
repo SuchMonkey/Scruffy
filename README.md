@@ -1,7 +1,7 @@
 # Scruffy
 
-[![Build Status](https://travis-ci.org/suchmonkey/Scruffy.svg?branch=master)](https://travis-ci.org/suchmonkey/Scruffy)
-[![Coverage Status](https://coveralls.io/repos/github/suchmonkey/scruffy/badge.svg?branch=master)](https://coveralls.io/github/suchmonkey/scruffy?branch=master)
+[![Build Status](https://travis-ci.org/SuchMonkey/Scruffy.svg?branch=master)](https://travis-ci.org/SuchMonkey/Scruffy)
+[![Coverage Status](https://coveralls.io/repos/github/suchmonkey/scruffdy/badge.svg?branch=master)](https://coveralls.io/github/suchmonkey/scruffy?branch=master)
 
 Scruffy is a simple pseudo random IP v4 address generator which uses specific offsets for each octet to generate deterministic IP addresses.
 ## Features
@@ -12,13 +12,14 @@ Scruffy is a simple pseudo random IP v4 address generator which uses specific of
 * **Shuffeling through pseudorandom generated IP addresses**
   Using an iterator...
 
-## Build from source
+## Adding Scruffy to your project
 
-```bash
-git clone https://github.com/suchmonkey/scruffy.git
-cd scruffy
-cargo build --release
-cargo test --release
+For now you have add the dependency from git directly.
+Add the following line to your dependencies:
+
+```toml
+[dependencies]
+scruffy = { git = "https://github.com/SuchMonkey/Scruffy.git" }
 ```
 
 ## Example
