@@ -1,0 +1,7 @@
+[package]
+name = "scruffy"
+version = "0.1.0"
+authors = ["suchmonkey"]
+
+[dependencies]
+rand="*"
