@@ -93,8 +93,8 @@ mod tests {
         let octets_offsets = rand_scruffy.get_octets_offsets();
         let rebuilt_scruffy = Scruffy::new(octets_offsets);
 
-        let a_set = rand_scruffy.take(10000).collect::<Vec<Ipv4Addr>>();
-        let b_set = rebuilt_scruffy.take(10000).collect::<Vec<Ipv4Addr>>();
+        let a_set = rand_scruffy.take(100000).collect::<Vec<Ipv4Addr>>();
+        let b_set = rebuilt_scruffy.take(100000).collect::<Vec<Ipv4Addr>>();
 
         assert_eq!(a_set, b_set);
     }

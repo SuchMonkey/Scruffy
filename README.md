@@ -58,3 +58,5 @@ Use the issue tracker to report problems, suggestions and questions. You may als
 * Maybe adding filters
 * Specify IP range by providing a subnetmask
 * Remove direct application of octat offsets and replace with a seed number. Removes need for providing working offsets.
+* More tests
+* Verify if addresses are unique and all possible addresses can be generated with correct offsets.
