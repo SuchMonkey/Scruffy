@@ -24,7 +24,6 @@ scruffy = { git = "https://github.com/SuchMonkey/Scruffy.git" }
 
 ## Example
 
-To make a `csvdump` of the Bitcoin blockchain your command would look like this:
 ```rust
 // Create a new scruffy type
 // To generate unique addresses the offsets for each ocatat should not be factors of 255
